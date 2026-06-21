@@ -131,6 +131,7 @@ body {
     padding: 40px 60px;
     border-top: 1px solid #eee;
     margin: 0 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .stat {
     display: flex;
@@ -153,4 +154,74 @@ body {
 .stat-label {
     color: var(--gray);
     font-size: 14px;
+}
+
+.hero2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 60px 100px;
+    gap: 40px;
+}
+
+.hero2-content {
+    max-width: 480px;
+    margin: 20px;
+}
+
+/*just aligne the img with text*/
+.hero2-lists ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hero2-lists li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.hero3 {
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    margin: 40px;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: 1px solid red;
+    margin: 40px;
+    padding: 80px;
+}
+
+.cards ul {
+    list-style: none;
+    padding: 0px;
+    margin: 8px;
+}
+
+.card li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding-top: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    gap: 20px;
 }
