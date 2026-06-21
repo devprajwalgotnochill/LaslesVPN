@@ -225,3 +225,13 @@ body {
     margin-top: 5px;
     gap: 20px;
 }
+
+.global {
+    text-align: center;
+}
+
+.global-img {
+    padding: 20px;
+    margin-top: 60px;
+}
+
