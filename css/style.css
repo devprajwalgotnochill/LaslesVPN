@@ -235,3 +235,29 @@ body {
     margin-top: 60px;
 }
 
+.review-text {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.review {
+    display: flex;
+    border: 1px solid red;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.review-cards {
+    border: 1px solid red;
+    max-width: 480px;
+    justify-content: space-evenly;
+}
+
+.review-header {
+    display: flex;
+    text-align: center;
+}
