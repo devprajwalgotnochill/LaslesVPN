@@ -15,6 +15,7 @@ body {
     --light-red: #fff1f1;
     --gray: #6e7191;
     --dark: #14142b;
+    --border: #eceef3;
 }
 /*whole navbar*/
 .navbar {
@@ -239,11 +240,11 @@ body {
     text-align: center;
     margin: 20px;
     padding: 20px;
+    flex: 1;
 }
 
 .review {
     display: flex;
-    border: 1px solid red;
     padding: 20px;
     margin: 20px;
     justify-content: space-evenly;
@@ -252,12 +253,21 @@ body {
 }
 
 .review-cards {
-    border: 1px solid red;
+    border: 1px solid var(--border);
+    border-radius: 15px;
     max-width: 480px;
-    justify-content: space-evenly;
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 20px;
 }
 
 .review-header {
+    padding: 60px 20px;
+    justify-content: space-around;
     display: flex;
     text-align: center;
+    align-items: center;
 }
